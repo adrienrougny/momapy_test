@@ -1,0 +1,17 @@
+name: momapy_test
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - libsbgnpy
+    - frozendict
+    - pycairo
+    - pygobject
+    - numpy
+    - pyparsing
+    - skia-python
+    - xsdata[cli, lxml, soap]
+    - shapely~=2.0rc1
+    - ipykernel
