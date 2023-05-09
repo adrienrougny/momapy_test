@@ -27,7 +27,6 @@ setup(
         "pyparsing",
         "skia-python",
         "xsdata[cli, lxml, soap]",
-        "bezier",
         "shapely~=2.0rc1",
         "ipykernel",
     ],

@@ -11,7 +11,7 @@ import shapely
 
 import momapy.builder
 
-import bezier.curve
+# import bezier.curve
 
 ROUNDING = 2
 decimal.getcontext().prec = ROUNDING
