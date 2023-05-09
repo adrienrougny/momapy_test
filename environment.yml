@@ -16,3 +16,4 @@ dependencies:
     - xsdata[cli, lxml, soap]
     - shapely~=2.0rc1
     - ipykernel
+    - -e .
