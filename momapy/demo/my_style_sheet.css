@@ -1,0 +1,10 @@
+
+    MacromoleculeLayout {
+        stroke-width: 3;
+        fill: blue;
+    }
+    
+    StateVariableLayout > TextLayout {
+        font-size: 20.0;
+    }
+    
