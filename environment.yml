@@ -13,8 +13,8 @@ dependencies:
     - pyparsing
     - skia-python
     - xsdata[cli, lxml, soap]
-    - bezier
+    # - bezier
     - shapely~=2.0rc1
     - ipykernel
-variables:
-  BEZIER_NO_EXTENSION: True
+# variables:
+#   BEZIER_NO_EXTENSION: True
