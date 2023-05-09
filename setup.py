@@ -1,8 +1,7 @@
 import os
 from distutils.core import setup
 
-os.system("echo 'Setting BEZIER_NO_EXTENSION=True'")
-os.system("export BEZIER_NO_EXTENSION=True")
+os.environ["BEZIER_NO_EXTENSION"] = True
 
 setup(
     name="momapy",
